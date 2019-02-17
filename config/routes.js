@@ -15,9 +15,11 @@ module.exports.routes = {
   //  ║║║║╣ ╠╩╗╠═╝╠═╣║ ╦║╣ ╚═╗
   //  ╚╩╝╚═╝╚═╝╩  ╩ ╩╚═╝╚═╝╚═╝
   'GET /':                   { action: 'view-homepage-or-redirect' },
-  'GET /articles':           { action: 'articles' },
+
   'GET /articles':           { action: 'articles' },
   'GET /articles/list':      { action: 'articles/list' },
+  'GET /articles/add':       { action: 'articles/add' },
+
   'GET /welcome':            { action: 'dashboard/view-welcome' },
 
   'GET /faq':                { view:   'pages/faq' },

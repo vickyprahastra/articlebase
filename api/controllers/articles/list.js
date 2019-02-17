@@ -3,6 +3,6 @@ module.exports =  async function (req, res) {
     if (err) {
       res.send(500, {error: 'Database Error'});
     }
-    return res.view('articles/list', {articles:articles});
+    return res.view('pages/articles/list', {articles:articles});
   })
 };
