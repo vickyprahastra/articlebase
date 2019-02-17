@@ -19,6 +19,7 @@ module.exports.routes = {
   'GET /articles':           { action: 'articles' },
   'GET /articles/list':      { action: 'articles/list' },
   'GET /articles/add':       { action: 'articles/add' },
+  'POST /articles/create':   { action: 'articles/create' },
 
   'GET /welcome':            { action: 'dashboard/view-welcome' },
 
